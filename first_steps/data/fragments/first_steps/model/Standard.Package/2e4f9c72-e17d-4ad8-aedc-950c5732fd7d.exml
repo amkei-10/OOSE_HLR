@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Informations" version="4">
+  <OBJECT>
+    <ID name="Informations" mc="Standard.Package" uid="2e4f9c72-e17d-4ad8-aedc-950c5732fd7d"/>
+    <PID name="HLR" mc="Standard.Package" uid="56810359-3725-41d9-90f9-d0e8532f2922"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Informations]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Monitoring" mc="Standard.UseCase" uid="4402a9bf-30ee-49b9-ae6c-114d0346a52e"/>
+        <COMPID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
+        <COMPID name="Warnung ausgeben" mc="Standard.UseCase" uid="4071bff3-0062-49e0-a4d1-501b49947054"/>
+        <COMPID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

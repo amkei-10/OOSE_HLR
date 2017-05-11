@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Packets" version="4">
+  <OBJECT>
+    <ID name="Packets" mc="Standard.Package" uid="bdf89aa7-6f5a-4cd1-a74f-693cb1603f97"/>
+    <PID name="HLR" mc="Standard.Package" uid="56810359-3725-41d9-90f9-d0e8532f2922"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Packets]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Paket-ID austragen" mc="Standard.UseCase" uid="11832888-bbbd-4b8d-90d4-3ccd0252933e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
