@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paket-ID eintragen" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paket-ID verifizieren" version="4">
   <OBJECT>
-    <ID name="Paket-ID eintragen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+    <ID name="Paket-ID verifizieren" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Paket-ID eintragen]]></ATT>
+      <ATT name="Name"><![CDATA[Paket-ID verifizieren]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -34,23 +34,23 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="3aa1a14c-23d8-4e34-92a2-3913e2cabbf7"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Purpose: 
+            <ATT name="Content"><![CDATA[Purpose: Vorläufige Paket-ID wird verarbeitet
 
 Extends: Einlagern
 
-At Point: Schriit 4
+At Point: nach Schritt 4
 
-Entry Cond: 
+Entry Cond: -
 
-Overview: 
+Overview: Überprüft Paket-ID auf Gültigkeit (vorhanden/nicht vorhanden).
+		Trägt gültige Paket-ID in System ein.
 
-Exit Cond: 
+Exit Cond: Verifizierung abgeschlossen.
 
-Includes:
+Return to: Schritt4 in Einlagern wenn Paket-ID ungültig; 
+		Schritt 5 in Einlagern wenn Paket-ID gültig
 
-Special Requirements
-
-Category:]]></ATT>
+Category: niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

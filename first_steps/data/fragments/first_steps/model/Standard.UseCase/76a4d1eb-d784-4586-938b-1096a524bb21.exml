@@ -22,7 +22,22 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Paket-ID eintragen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+              <ID name="Paket-ID verifizieren" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="31c81122-a43e-4719-8923-474e74522e89"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -161,11 +176,11 @@
             <ATT name="Content"><![CDATA[	Actor							System
 
 1.	[Lagerist] Kapazität abfragen
-2.									gibt Anzahl freier Plätze zurück und
+2.									gibt Anzahl freier Plätze zurück
 3.	[Lagerist] wählt Slot aus
-									weist Paket-ID Slot zu
-3.	[Lager] transportiert Paket zu Slot
-4.									reduziert Anzahl freier Plätze]]></ATT>
+4									Paket-ID für Slot erzeugen
+5.	[Lager] transportiert Paket zu Slot
+6.									reduziert Anzahl freier Plätze]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

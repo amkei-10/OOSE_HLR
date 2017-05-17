@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Kapazität abfragen" version="4">
   <OBJECT>
     <ID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
-    <PID name="Info UseCases" mc="Standard.Package" uid="2e4f9c72-e17d-4ad8-aedc-950c5732fd7d"/>
+    <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

@@ -15,9 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
         <COMPID name="Monitoring" mc="Standard.UseCase" uid="4402a9bf-30ee-49b9-ae6c-114d0346a52e"/>
-        <COMPID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
         <COMPID name="Warnung ausgeben" mc="Standard.UseCase" uid="4071bff3-0062-49e0-a4d1-501b49947054"/>
-        <COMPID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

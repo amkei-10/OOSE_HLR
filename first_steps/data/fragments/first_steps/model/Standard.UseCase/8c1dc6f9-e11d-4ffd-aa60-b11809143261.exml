@@ -64,7 +64,7 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="fa2983d9-5aba-4e9d-92c6-e3d6757e61c8"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Purpose: Ausnahmebahandlung wenn kein Lagerplatz verfügbar
+            <ATT name="Content"><![CDATA[Purpose: Ausnahmebehandlung wenn kein Lagerplatz verfügbar
 
 Extends: Einlagern
 
@@ -74,14 +74,13 @@ Entry Cond: Schritt 2 hat Anzahl freier Plätze=0 geliefert
 
 Overview: Im Lager wurden alle freien Plätze belegt, es stehen keine weiteren Slots
 		für weitere Einlagerungen zur Verfügung. Der Lagerist wird darüber informiert.
+		<<und das Einlagern für einen vorgebene Zeitraum blockiert(DISKUSSION).>>
 
-Exit Cond: 
+Exit Cond: Warnung wurde gesendet
 
-Includes:
+Return to: Ende von Einlagern
 
-Special Requirements
-
-Category:]]></ATT>
+Category: niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

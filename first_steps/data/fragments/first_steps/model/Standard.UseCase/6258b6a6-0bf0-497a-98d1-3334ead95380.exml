@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Auslagern" version="4">
   <OBJECT>
     <ID name="Auslagern" mc="Standard.UseCase" uid="6258b6a6-0bf0-497a-98d1-3334ead95380"/>
-    <PID name="Controling UseCases" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
+    <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -44,6 +44,21 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="446db74e-201b-4085-83d1-f0a6859360cd"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Paket-ID nicht vorhanden" mc="Standard.UseCase" uid="ac0649bc-4993-44b9-9765-c8da6ec68f2d"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
@@ -65,7 +80,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Steuerung" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
+              <ID name="Lager" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -126,7 +141,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Steuerung" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
+              <ID name="Lager" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -173,7 +188,14 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="1d7bc61e-40d3-4b7c-a2be-cc5691097561"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[	Actor							System
+
+1.	[Lagerist] Paket-ID anfragen
+2.									Slot-Zuordnung finden
+3.	[Lager] Slot anfahren und 
+		    Paket auslagern 
+4.									Paket-ID aus System löschen
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -21,7 +21,6 @@
         <COMPID name="Actors" mc="Standard.Package" uid="1dba2905-ff9d-4a60-95b0-37b04c64b55e"/>
         <COMPID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
         <COMPID name="Informations" mc="Standard.Package" uid="2e4f9c72-e17d-4ad8-aedc-950c5732fd7d"/>
-        <COMPID name="Packets" mc="Standard.Package" uid="bdf89aa7-6f5a-4cd1-a74f-693cb1603f97"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="second_steps Use Case diagram" mc="Standard.UseCaseDiagram" uid="535228a2-8286-4e1e-8911-9ffea8a99296"/>

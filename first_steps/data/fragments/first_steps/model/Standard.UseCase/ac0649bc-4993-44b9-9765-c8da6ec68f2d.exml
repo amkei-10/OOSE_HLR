@@ -64,7 +64,22 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="be99a592-d9cf-4890-bace-51fefa0de9b0"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[Purpose: Ausnahmebehandlung wenn Paket-ID nicht vorhanden
+
+Extends: Auslagern
+
+At Point: nach Schritt 1
+
+Entry Cond: Schritt 1 hat Paket-ID nicht gefunden
+
+Overview: Im System liegt angefragte Paket-ID nicht vor.
+		Der Lagerist wird darüber informiert.
+		
+Exit Cond: Warnung wurde gesendet
+
+Return to: Ende von Auslagern
+
+Category: niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

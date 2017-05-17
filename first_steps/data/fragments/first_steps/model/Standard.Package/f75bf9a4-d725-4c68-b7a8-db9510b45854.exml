@@ -22,7 +22,9 @@
         <COMPID name="Lager voll" mc="Standard.UseCase" uid="8c1dc6f9-e11d-4ffd-aa60-b11809143261"/>
         <COMPID name="Warnung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
         <COMPID name="Paket-ID nicht vorhanden" mc="Standard.UseCase" uid="ac0649bc-4993-44b9-9765-c8da6ec68f2d"/>
-        <COMPID name="Paket-ID eintragen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+        <COMPID name="Paket-ID verifizieren" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+        <COMPID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
+        <COMPID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
