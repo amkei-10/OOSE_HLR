@@ -173,14 +173,14 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="787e955c-5f29-4691-befd-6af90efb1c85"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[	Actor							System
+            <ATT name="Content"><![CDATA[	Actor								System
 
-1.	[Lagerist] Kapazität abfragen
-2.									gibt Anzahl freier Plätze zurück
-3.	[Lagerist] wählt Slot aus
-4									Paket-ID für Slot erzeugen
+1.	[Lagerist] UC(Kapazität abfragen)
+2.										gibt Anzahl freier Plätze zurück
+3.	[Lagerist] Bestätigen des Einlagervorgangs
+4										Paket-ID-Slot-Zuordnung erzeugen
 5.	[Lager] transportiert Paket zu Slot
-6.									reduziert Anzahl freier Plätze]]></ATT>
+6.										Anzahl freier Plätze dekrementieren]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -15,21 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="4aeeac81-4256-45b5-af7e-60f08e49bd6e"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Warnung ausgeben" mc="Standard.UseCase" uid="4071bff3-0062-49e0-a4d1-501b49947054"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
           <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="7f57b845-a069-465e-9613-2294d1fe77f1"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
@@ -64,23 +49,25 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="fa2983d9-5aba-4e9d-92c6-e3d6757e61c8"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Purpose: Ausnahmebehandlung wenn kein Lagerplatz verfügbar
+            <ATT name="Content"><![CDATA[UseCase: 	Lager voll
+Purpose: 		Ausnahmebehandlung wenn kein Lagerplatz verfügbar
 
-Extends: Einlagern
+Extends: 		Einlagern
 
-At Point: nach Schritt 2
+At Point: 		nach Schritt 2
 
-Entry Cond: Schritt 2 hat Anzahl freier Plätze=0 geliefert
+Entry Cond: 	Schritt 2 hat Anzahl freier Plätze=0 geliefert
 
-Overview: Im Lager wurden alle freien Plätze belegt, es stehen keine weiteren Slots
-		für weitere Einlagerungen zur Verfügung. Der Lagerist wird darüber informiert.
-		<<und das Einlagern für einen vorgebene Zeitraum blockiert(DISKUSSION).>>
+Overview: 	Im Lager wurden alle freien Plätze belegt, es stehen keine weiteren Slots
+			für weitere Einlagerungen zur Verfügung. Der Lagerist wird darüber 				
+			informiert.
+			<<und das Einlagern für einen vorgebene Zeitraum blockiert(DISKUSSION).>>
 
-Exit Cond: Warnung wurde gesendet
+Exit Cond: 	Warnung wurde gesendet
 
-Return to: Ende von Einlagern
+Return to: 	Ende von Einlagern
 
-Category: niedrige Priorität]]></ATT>
+Category: 	niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

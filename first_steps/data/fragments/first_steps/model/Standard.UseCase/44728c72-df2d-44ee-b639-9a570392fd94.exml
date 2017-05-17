@@ -17,7 +17,15 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="bb163147-d995-4ba4-8589-8af67710568a"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[UseCase:	Paket-ID anfragen
+
+Entry Cond: 	-
+
+Overview: 	Zu einer gültigen Paket-ID wird der zugehörige Slot (x,y) zurück geliefert.
+
+Return to: 	Aufrufer
+
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

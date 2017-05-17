@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Monitoring" version="4">
   <OBJECT>
     <ID name="Monitoring" mc="Standard.UseCase" uid="4402a9bf-30ee-49b9-ae6c-114d0346a52e"/>
-    <PID name="Info UseCases" mc="Standard.Package" uid="2e4f9c72-e17d-4ad8-aedc-950c5732fd7d"/>
+    <PID name="first_steps" mc="Standard.Package" uid="56810359-3725-41d9-90f9-d0e8532f2922"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

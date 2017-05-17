@@ -45,17 +45,17 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="446db74e-201b-4085-83d1-f0a6859360cd"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1a2470dc-5727-43e0-bbf0-7ebfd56f0032"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Paket-ID nicht vorhanden" mc="Standard.UseCase" uid="ac0649bc-4993-44b9-9765-c8da6ec68f2d"/>
+              <ID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
             </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -188,13 +188,15 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="1d7bc61e-40d3-4b7c-a2be-cc5691097561"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[	Actor							System
+            <ATT name="Content"><![CDATA[	Actor						System
 
 1.	[Lagerist] Paket-ID anfragen
-2.									Slot-Zuordnung finden
+2.								UC(Paket-ID-anfragen)
+								Paket-ID-Slot-Zuordnung finden
 3.	[Lager] Slot anfahren und 
-		    Paket auslagern 
-4.									Paket-ID aus System löschen
+		     Paket auslagern 
+4.								Paket-ID-Slot-Zuordnung aus System entfernen,
+								Anzahl freier Plätze inkrementieren
 ]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>

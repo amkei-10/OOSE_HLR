@@ -43,7 +43,7 @@ At Point: nach Schritt 4
 Entry Cond: -
 
 Overview: Überprüft Paket-ID auf Gültigkeit (vorhanden/nicht vorhanden).
-		Trägt gültige Paket-ID in System ein.
+		Trägt gültige Paket-ID mit zugehörigem Slot in System ein.
 
 Exit Cond: Verifizierung abgeschlossen.
 

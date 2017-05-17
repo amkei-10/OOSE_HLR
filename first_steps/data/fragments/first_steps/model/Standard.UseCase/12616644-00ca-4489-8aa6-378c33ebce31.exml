@@ -17,7 +17,21 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="acce8a23-6dff-4f96-8487-5f0763afa4c8"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[UseCase:	Kapazität abfragen
+
+Purpose:		Ermittlung freier Lagerplätze
+
+EntryCond:	-
+
+Overview: 	Zählt Anzahl freier Paket-ID und gibt diese zurück.
+
+ExitCond:		-
+
+Includes:		-
+
+SpecialReq:	-
+
+Category: 	niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
