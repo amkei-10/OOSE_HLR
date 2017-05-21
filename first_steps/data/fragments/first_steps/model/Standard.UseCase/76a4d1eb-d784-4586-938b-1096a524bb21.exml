@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Paket-ID verifizieren" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+              <ID name="Paket Slot zuweisen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -37,7 +37,22 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Kapazität abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
+              <ID name="Auslastung abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="c663b28b-8a10-42b0-a1fc-d9d546ac58dd"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Paket Slot zuweisen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -107,67 +122,12 @@
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
+        <REFOBJ>
           <ID name="" mc="Standard.AssociationEnd" uid="d86dd68b-1141-4719-965a-d8d62bb2f791"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Lager" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="c072b2ee-daa3-4cd0-a8a3-fe988b6278ef"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="d86dd68b-1141-4719-965a-d8d62bb2f791"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="a1be720b-074f-49c1-b19f-8822368277e1"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="a1be720b-074f-49c1-b19f-8822368277e1"/>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="36c09c68-ffb3-4e94-abf1-ea1b4afe3069"/>
+        </REFOBJ>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
@@ -175,10 +135,10 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[	Actor								System
 
-1.	[Lagerist] UC(Kapazität abfragen)
+1.	[Lagerist] UC(Auslastung abfragen)
 2.										gibt Anzahl freier Plätze zurück
-3.	[Lagerist] Bestätigen des Einlagervorgangs
-4										Paket-ID-Slot-Zuordnung erzeugen
+3.	[Lagerist] UC(Paket Slot zuweisen)
+4										Zuordnung Paket-Slot erzeugen
 5.	[Lager] transportiert Paket zu Slot
 6.										Anzahl freier Plätze dekrementieren]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

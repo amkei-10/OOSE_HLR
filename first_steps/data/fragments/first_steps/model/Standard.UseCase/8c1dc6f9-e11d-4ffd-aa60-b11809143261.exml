@@ -27,6 +27,23 @@
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
             </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="7c4aa518-7aa3-417a-8d77-7e55e1a50c70"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<p>{keine Ablage frei}</p>
+]]></ATT>
+                  <ATT name="MimeType"></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
@@ -60,8 +77,7 @@ Entry Cond: 	Schritt 2 hat Anzahl freier Plätze=0 geliefert
 
 Overview: 	Im Lager wurden alle freien Plätze belegt, es stehen keine weiteren Slots
 			für weitere Einlagerungen zur Verfügung. Der Lagerist wird darüber 				
-			informiert.
-			<<und das Einlagern für einen vorgebene Zeitraum blockiert(DISKUSSION).>>
+			informiert.<<blockiert für vorgebenen Zeitraum (DISKUSSION).>>
 
 Exit Cond: 	Warnung wurde gesendet
 

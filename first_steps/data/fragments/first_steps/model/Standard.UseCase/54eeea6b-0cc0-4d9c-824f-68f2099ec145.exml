@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paket Slot zuweisen" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SendWarn: LagerVoll" version="4">
   <OBJECT>
-    <ID name="Paket Slot zuweisen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
+    <ID name="SendWarn: LagerVoll" mc="Standard.UseCase" uid="54eeea6b-0cc0-4d9c-824f-68f2099ec145"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,32 +9,30 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Paket Slot zuweisen]]></ATT>
+      <ATT name="Name"><![CDATA[SendWarn: LagerVoll]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="fd93342a-5b8f-4bac-90dd-3fd38157a46a"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Warnung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="3aa1a14c-23d8-4e34-92a2-3913e2cabbf7"/>
+          <ID name="" mc="Infrastructure.Note" uid="5ed356cf-7e97-4c7f-bacb-696c9294650d"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[UseCase:	Paket Slot zuweisen
-
-Purpose:		
-
-EntryCond:	-
-
-Overview: 	Erzeugt eine PaketID mit zugehörigem Slot (Lagerplatz).
-			Speichert die Zuordnung. Gibt erzeugte Informationen zurück.
-
-ExitCond:		-
-
-Return to:	Aufrufstelle
-
-Includes:		-
-
-SpecialReq:	-
-
-Category: 	niedrige Priorität]]></ATT>
+            <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -46,7 +44,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="755260ac-96ff-40f1-a524-7d9db14c553e"/>
+          <ID name="" mc="Infrastructure.Note" uid="756cb047-1506-4fe8-b404-c05644ba90e0"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +58,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8af9f439-499b-4a34-aa07-a9691ee4e9dc"/>
+          <ID name="" mc="Infrastructure.Note" uid="c9b8b8b2-be24-4466-99a9-87b5495788e1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +72,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="b20cb95f-45a3-481c-a841-5e428b4277fc"/>
+          <ID name="" mc="Infrastructure.Note" uid="cd214dd0-d4b0-4bbc-8be3-76aa641ece1c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -88,7 +86,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="15062c32-468b-4c46-bb2d-b71427a076fa"/>
+          <ID name="" mc="Infrastructure.Note" uid="5660cbc6-a5ec-433a-91d5-2bb91e9f84fe"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +100,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="bf85ab20-d829-4c22-a1b4-bb4d216a0e64"/>
+          <ID name="" mc="Infrastructure.Note" uid="bb99b71a-8a52-4d43-a661-a04c0a4ecb0e"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

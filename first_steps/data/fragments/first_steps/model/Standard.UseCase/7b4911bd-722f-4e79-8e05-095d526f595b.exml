@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Systemkonfiguration" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SendWarn: PaketID" version="4">
   <OBJECT>
-    <ID name="Systemkonfiguration" mc="Standard.UseCase" uid="5f5ccb5d-96db-49b6-a857-2aedf0f200c7"/>
+    <ID name="SendWarn: PaketID" mc="Standard.UseCase" uid="7b4911bd-722f-4e79-8e05-095d526f595b"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,28 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Systemkonfiguration]]></ATT>
+      <ATT name="Name"><![CDATA[SendWarn: PaketID]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="9f1ff9fa-a6db-4499-8dbd-7cb66c777f9c"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Warnung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="4cb5919a-2b18-4c81-be4f-727f20561f3d"/>
+          <ID name="" mc="Infrastructure.Note" uid="136c13e7-cb6a-4864-ad78-bdca43e2f733"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +44,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="dc4d1d53-d226-41b7-acec-d685faea67f8"/>
+          <ID name="" mc="Infrastructure.Note" uid="32baa161-2bbb-4b69-8e87-827dd3cf181d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +58,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="88d07a44-13f5-474f-90e8-6d7d95d8d763"/>
+          <ID name="" mc="Infrastructure.Note" uid="566116a6-e465-40e9-ba4d-2552c0c3ba7c"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +72,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="202cdfbd-5afd-4006-a145-deb1bc5f83d8"/>
+          <ID name="" mc="Infrastructure.Note" uid="9b15b768-58a4-490c-852e-d73d655df0c5"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +86,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="7f31c4cf-9635-420f-b1d1-52cb9909f8f0"/>
+          <ID name="" mc="Infrastructure.Note" uid="b1b9b279-8544-42b1-b2b3-96ada34ecbed"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +100,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="2a143c58-d736-41dc-8648-8dfec6446f68"/>
+          <ID name="" mc="Infrastructure.Note" uid="c99675fc-4133-444c-8b16-b52d8a6ad2e2"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
