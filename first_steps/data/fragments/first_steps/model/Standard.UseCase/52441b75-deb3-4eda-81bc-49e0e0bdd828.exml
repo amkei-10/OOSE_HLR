@@ -60,6 +60,17 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedExtension">
+        <OBJECT>
+          <ID name="Extension Point: ?" mc="Standard.ExtensionPoint" uid="426d4f6c-ee20-4b65-9983-0fe72fc4d23f"/>
+          <ATTRIBUTES>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Extension Point: ?]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="fb5d80d8-c1a3-47ee-97b1-87cbe58bb530"/>
@@ -194,7 +205,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="{Paket bearbeiten}" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+              <ID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
