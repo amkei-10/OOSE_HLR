@@ -23,14 +23,15 @@ Purpose:
 
 EntryCond:	-
 
-Overview: 	Erzeugt eine PaketID mit zugehörigem Slot (Lagerplatz).
-			Speichert die Zuordnung. Gibt erzeugte Informationen zurück.
+Overview: 	Erzeugt eine Zuordnung PaketID-Slot (Lagerplatz).
+			Speichert die Zuordnung. 
+			Gibt erzeugte Informationen zurück.
 
-ExitCond:		-
+ExitCond:	-
 
-Return to:	Aufrufstelle
+Return to:	-
 
-Includes:		-
+Includes:	-
 
 SpecialReq:	-
 
