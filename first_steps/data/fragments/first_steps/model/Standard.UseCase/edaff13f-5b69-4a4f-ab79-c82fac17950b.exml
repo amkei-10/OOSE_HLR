@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Wartung: Lager leeren" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SendMsg: Optimiert" version="4">
   <OBJECT>
-    <ID name="Wartung: Lager leeren" mc="Standard.UseCase" uid="aa0bd19e-63fd-49ea-9c52-06c1350dda46"/>
+    <ID name="SendMsg: Optimiert" mc="Standard.UseCase" uid="edaff13f-5b69-4a4f-ab79-c82fac17950b"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,74 +9,30 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Wartung: Lager leeren]]></ATT>
+      <ATT name="Name"><![CDATA[SendMsg: Optimiert]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="Used">
+      <COMP relation="Parent">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="b69a049e-06ef-49ef-8f5e-f634fa9b58ca"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="d7cc9de4-3bf2-4c37-bc06-107947b173a7"/>
           <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Auslagern" mc="Standard.UseCase" uid="6258b6a6-0bf0-497a-98d1-3334ead95380"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="6eb59f25-600a-4a03-9fc9-4120126dfc26"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Auslastung abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            <LINK relation="SuperType">
+              <ID name="Mitteilung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8e926a1e-4e15-4455-91e8-7f2546276e5b"/>
+          <ID name="" mc="Infrastructure.Note" uid="561a53c1-d352-4fb9-af2f-c2baab9f535e"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[	Actor								System
-
-1.	[Servicetec.] UC(Auslastung abfragen)
-2.										[System]gibt Anzahl freier Slots zurück
-3.	[Servicetec.] UC(Auslagern)
-
-
-
-
-
-UseCase:	Wartung: Lager leeren
-
-Purpose:		
-
-EntryCond:	-
-
-Overview: 	Lagert solange Pakete aus [UC(Auslagern)] bis das Lager leer ist 
-			[UC(Auslastung abfragen)].
-
-ExitCond:	-
-
-Return to:	-
-
-Includes:	-
-
-SpecialReq:	-
-
-Category: 	niedrige Priorität]]></ATT>
+            <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -88,7 +44,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="b05b91ed-8a59-4d76-8130-9092b78d811b"/>
+          <ID name="" mc="Infrastructure.Note" uid="a4a5e484-064b-47a7-9e0c-8eb6f8d0424d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +58,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1af6039b-fa53-487f-afac-28eeb805a0da"/>
+          <ID name="" mc="Infrastructure.Note" uid="6654f290-1797-400b-8351-f6c9549af9c3"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -116,7 +72,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="a11f1d06-3b30-4237-85d0-b975df83e638"/>
+          <ID name="" mc="Infrastructure.Note" uid="9b1c3c5c-e986-41ee-956f-aa1dfa88a9bc"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -130,7 +86,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="b3b449ff-9372-4083-82c3-c6b14ec5faba"/>
+          <ID name="" mc="Infrastructure.Note" uid="9aa36df9-5320-491c-8b90-373c38c3738f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -144,7 +100,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e130e292-abb0-447d-aacf-54ce9b97c0a8"/>
+          <ID name="" mc="Infrastructure.Note" uid="d03f53da-7cb1-49c7-a234-c509324bb3cd"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

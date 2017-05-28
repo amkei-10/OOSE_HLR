@@ -45,7 +45,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1a2470dc-5727-43e0-bbf0-7ebfd56f0032"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="604f93e0-4742-4d7d-af4c-34614de188bc"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -19,15 +19,17 @@
         <COMPID name="Optimieren" mc="Standard.UseCase" uid="52441b75-deb3-4eda-81bc-49e0e0bdd828"/>
         <COMPID name="Wartung: Lager leeren" mc="Standard.UseCase" uid="aa0bd19e-63fd-49ea-9c52-06c1350dda46"/>
         <COMPID name="Lager voll" mc="Standard.UseCase" uid="8c1dc6f9-e11d-4ffd-aa60-b11809143261"/>
-        <COMPID name="Warnung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
+        <COMPID name="Mitteilung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
         <COMPID name="Paket-ID nicht vorhanden" mc="Standard.UseCase" uid="ac0649bc-4993-44b9-9765-c8da6ec68f2d"/>
         <COMPID name="Paket Slot zuweisen" mc="Standard.UseCase" uid="2d2e9f81-b918-45a3-b74c-719f0c9901ea"/>
         <COMPID name="Auslastung abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
         <COMPID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
         <COMPID name="SendWarn: LagerVoll" mc="Standard.UseCase" uid="54eeea6b-0cc0-4d9c-824f-68f2099ec145"/>
         <COMPID name="SendWarn: PaketID" mc="Standard.UseCase" uid="7b4911bd-722f-4e79-8e05-095d526f595b"/>
-        <COMPID name="{Paket bearbeiten}" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+        <COMPID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
         <COMPID name="Wartung: Daten bereinigen" mc="Standard.UseCase" uid="91152ca5-8aad-4065-8b59-0af499c73fc7"/>
+        <COMPID name="Optimale Lagerung" mc="Standard.UseCase" uid="51fc3bd8-9e15-48c3-ac11-a6ab1070e5da"/>
+        <COMPID name="SendMsg: Optimiert" mc="Standard.UseCase" uid="edaff13f-5b69-4a4f-ab79-c82fac17950b"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

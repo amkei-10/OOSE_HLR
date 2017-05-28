@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Wartung: Lager leeren" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Optimale Lagerung" version="4">
   <OBJECT>
-    <ID name="Wartung: Lager leeren" mc="Standard.UseCase" uid="aa0bd19e-63fd-49ea-9c52-06c1350dda46"/>
+    <ID name="Optimale Lagerung" mc="Standard.UseCase" uid="51fc3bd8-9e15-48c3-ac11-a6ab1070e5da"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,35 +9,20 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Wartung: Lager leeren]]></ATT>
+      <ATT name="Name"><![CDATA[Optimale Lagerung]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="b69a049e-06ef-49ef-8f5e-f634fa9b58ca"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="9d8f5541-c64e-46ba-b2f3-0f6ffab30893"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Auslagern" mc="Standard.UseCase" uid="6258b6a6-0bf0-497a-98d1-3334ead95380"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="6eb59f25-600a-4a03-9fc9-4120126dfc26"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Auslastung abfragen" mc="Standard.UseCase" uid="12616644-00ca-4489-8aa6-378c33ebce31"/>
+              <ID name="Mitteilung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -47,36 +32,24 @@
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8e926a1e-4e15-4455-91e8-7f2546276e5b"/>
+          <ID name="" mc="Infrastructure.Note" uid="869ff0b7-3b9c-4cac-8991-1c2ef419f753"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[	Actor								System
+            <ATT name="Content"><![CDATA[Purpose: Ausnahmebehandlung wenn das Lager optimal befüllt ist
 
-1.	[Servicetec.] UC(Auslastung abfragen)
-2.										[System]gibt Anzahl freier Slots zurück
-3.	[Servicetec.] UC(Auslagern)
+Extends: Optimieren
 
+At Point: nach Schritt 4
 
+Entry Cond: Schritt 4 hat keinen optimalen Slot gefunden
 
+Overview: Das System konnte keinen freien Slot ermitteln der niederwertiger ist als
+		der alte. Der Lagerist wird darüber informiert.
+		
+Exit Cond: Mitteilung wurde gesendet.
 
+Return to: Ende von Optimieren
 
-UseCase:	Wartung: Lager leeren
-
-Purpose:		
-
-EntryCond:	-
-
-Overview: 	Lagert solange Pakete aus [UC(Auslagern)] bis das Lager leer ist 
-			[UC(Auslastung abfragen)].
-
-ExitCond:	-
-
-Return to:	-
-
-Includes:	-
-
-SpecialReq:	-
-
-Category: 	niedrige Priorität]]></ATT>
+Category: niedrige Priorität]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
@@ -88,7 +61,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="b05b91ed-8a59-4d76-8130-9092b78d811b"/>
+          <ID name="" mc="Infrastructure.Note" uid="bc50e795-41c6-4fb2-97d0-a489d594bf46"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -102,7 +75,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1af6039b-fa53-487f-afac-28eeb805a0da"/>
+          <ID name="" mc="Infrastructure.Note" uid="2e24e3c7-3edc-4d01-99f2-424597fa0919"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -116,7 +89,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="a11f1d06-3b30-4237-85d0-b975df83e638"/>
+          <ID name="" mc="Infrastructure.Note" uid="b9187d34-b7d8-4de9-8441-a8edcf3109ab"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -130,7 +103,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="b3b449ff-9372-4083-82c3-c6b14ec5faba"/>
+          <ID name="" mc="Infrastructure.Note" uid="75c24147-a2b6-4fe6-acb4-40496157d8d9"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -144,7 +117,7 @@ Category: 	niedrige Priorität]]></ATT>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="e130e292-abb0-447d-aacf-54ce9b97c0a8"/>
+          <ID name="" mc="Infrastructure.Note" uid="7341202d-16f9-44eb-a536-df36d0fcddce"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

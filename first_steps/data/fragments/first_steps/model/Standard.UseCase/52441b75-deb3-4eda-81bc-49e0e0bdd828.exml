@@ -15,21 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="e6d09567-02e7-451f-b0a5-1d4444125016"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
           <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="8921d283-bf95-4091-bee7-3486ab134aa1"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
@@ -59,13 +44,43 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="a9cf05aa-439f-4827-b62d-c0e220d7b1f9"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Paket-ID anfragen" mc="Standard.UseCase" uid="44728c72-df2d-44ee-b639-9a570392fd94"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="6518ca9e-b060-499c-b2e3-1aca051fc6d2"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Optimale Lagerung" mc="Standard.UseCase" uid="51fc3bd8-9e15-48c3-ac11-a6ab1070e5da"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedExtension">
         <OBJECT>
-          <ID name="Extension Point: ?" mc="Standard.ExtensionPoint" uid="426d4f6c-ee20-4b65-9983-0fe72fc4d23f"/>
+          <ID name="Extension Point: 4" mc="Standard.ExtensionPoint" uid="426d4f6c-ee20-4b65-9983-0fe72fc4d23f"/>
           <ATTRIBUTES>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[Extension Point: ?]]></ATT>
+            <ATT name="Name"><![CDATA[Extension Point: 4]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
@@ -214,7 +229,18 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="af2e4557-3bf6-4aaf-9d10-552a1b6757e5"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Content"><![CDATA[	Actor							System
+
+1.	[Lagerist] UC(Auslastung abfragen)
+2.									[System] gibt Anzahl freier Plätze zurück
+3.	[Lagerist] Bestätigung
+4.									[System] UC(Paket-ID-anfragen)
+											gibt höchsten belegten Slot zurück
+											gibt niedrigsten freien Slot zurück
+5.	[Lager] transportiert Paket in
+		    neuen Slot
+6.									[System] UC(PaketSlot zuweisen)
+		     ]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
