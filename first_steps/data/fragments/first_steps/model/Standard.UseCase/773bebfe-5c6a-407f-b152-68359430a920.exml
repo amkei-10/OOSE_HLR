@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paket bearbeiten" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Paket transportieren" version="4">
   <OBJECT>
-    <ID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+    <ID name="Paket transportieren" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
     <PID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Paket bearbeiten]]></ATT>
+      <ATT name="Name"><![CDATA[Paket transportieren]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

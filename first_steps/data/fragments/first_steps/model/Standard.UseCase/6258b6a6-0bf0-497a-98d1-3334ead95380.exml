@@ -144,7 +144,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+              <ID name="Paket transportieren" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -156,8 +156,7 @@
             <ATT name="Content"><![CDATA[	Actor						System
 
 1.	[Lagerist] Paket-ID anfragen
-2.								UC(Paket-ID-anfragen)
-								Paket-ID-Slot-Zuordnung finden
+2.								UC(Paket-ID anfragen)								
 3.	[Lager] Slot anfahren und 
 		     Paket auslagern 
 4.								Paket-ID-Slot-Zuordnung aus System entfernen,

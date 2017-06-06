@@ -33,7 +33,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Wartung" mc="Standard.UseCase" uid="aa0bd19e-63fd-49ea-9c52-06c1350dda46"/>
+              <ID name="Wartung: Lager leeren" mc="Standard.UseCase" uid="aa0bd19e-63fd-49ea-9c52-06c1350dda46"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -87,6 +87,23 @@
           <DEPENDENCIES>
             <LINK relation="SuperType">
               <ID name="Lagerist" mc="Standard.Actor" uid="42c67bf0-04fc-40dd-9ca6-73861a9cf5eb"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="98f6ac02-38a6-4d43-b64e-2cf7f039b9b1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Leert im Wartungsfall das Lager.
+Stößt Datenbereinigung an.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Mitteilung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
+              <ID name="SendMessage" mc="Standard.UseCase" uid="edaff13f-5b69-4a4f-ab79-c82fac17950b"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>

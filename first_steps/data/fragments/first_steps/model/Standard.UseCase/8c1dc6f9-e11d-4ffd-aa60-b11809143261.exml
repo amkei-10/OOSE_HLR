@@ -37,7 +37,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Mitteilung ausgeben" mc="Standard.UseCase" uid="baf56845-56a1-43fd-bb00-3077ea9ff850"/>
+              <ID name="SendWarning" mc="Standard.UseCase" uid="54eeea6b-0cc0-4d9c-824f-68f2099ec145"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
@@ -54,8 +54,7 @@ Purpose: 		Ausnahmebehandlung wenn kein Lagerplatz verfügbar
 
 Extends: 		Einlagern
 
-At Point: 		nach Schritt 2 UC(Einlagern)
-			nach Schritt ? UC(Optimieren)
+At Point: 		nach Schritt 2 UC(Einlagern)			
 
 Entry Cond: 	Schritt 2 hat Anzahl freier Plätze=0 geliefert
 

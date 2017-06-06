@@ -144,7 +144,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+              <ID name="Paket transportieren" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -157,8 +157,20 @@
 
 1.	[Lagerist] UC(Auslastung abfragen)
 2.										gibt Anzahl freier Plätze zurück
+										UC(Paket Slot zuweisen)
+										Zuordnung Paket-Slot erzeugen
+3.	[Lager] transportiert Paket zu Slot
+4.										Anzahl freier Plätze dekrementieren
+
+
+####################### ALT ########################
+
+	Actor								System
+
+1.	[Lagerist] UC(Auslastung abfragen)
+2.										gibt Anzahl freier Plätze zurück
 3.	[Lagerist] UC(Paket Slot zuweisen)
-4										Zuordnung Paket-Slot erzeugen
+4.										Zuordnung Paket-Slot erzeugen
 5.	[Lager] transportiert Paket zu Slot
 6.										Anzahl freier Plätze dekrementieren]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

@@ -52,11 +52,10 @@
             <ATT name="Content"><![CDATA[	Actor								System
 
 1.	[Servicetec.] UC(Auslastung abfragen)
-2.										[System]gibt Anzahl freier Slots zurück
-3.	[Servicetec.] UC(Auslagern)
+2.										[System] UC(Auslagern)
 
 
-
+####################################################
 
 
 UseCase:	Wartung: Lager leeren

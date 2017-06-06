@@ -302,9 +302,12 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="b7157fdc-2e8e-43fc-844f-1d47579e26cc"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[<p>Steuert das System in Form von Ein- und Auslagerungsanfragen.</p><p>&lt;&lt;Dar&uuml;ber st&ouml;&szlig;t er bei Bedarf Optimierung an&gt;&gt;</p>
-]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="Content"><![CDATA[Steuert das System mit Ein- und Auslagerungsanfragen (Einzel- oder Listenanfragen).
+
+Stößt bei Bedarf Optimierung an.
+
+Empfängt Systemwarnungen und Hinweise.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>

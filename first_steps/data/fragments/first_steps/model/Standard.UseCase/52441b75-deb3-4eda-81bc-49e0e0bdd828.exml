@@ -220,7 +220,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Paket bearbeiten" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
+              <ID name="Paket transportieren" mc="Standard.UseCase" uid="773bebfe-5c6a-407f-b152-68359430a920"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -233,14 +233,30 @@
 
 1.	[Lagerist] UC(Auslastung abfragen)
 2.									[System] gibt Anzahl freier Plätze zurück
+											UC(Paket-ID-anfragen)
+											gibt höchsten belegten Slot zurück
+											gibt niedrigsten freien Slot zurück
+3.	[Lager] transportiert Paket in
+		    neuen Slot
+4.									[System] UC(PaketSlot zuweisen)
+
+
+
+
+
+##################### ALT ############################
+
+	Actor							System
+
+1.	[Lagerist] UC(Auslastung abfragen)
+2.									[System] gibt Anzahl freier Plätze zurück
 3.	[Lagerist] Bestätigung
 4.									[System] UC(Paket-ID-anfragen)
 											gibt höchsten belegten Slot zurück
 											gibt niedrigsten freien Slot zurück
 5.	[Lager] transportiert Paket in
 		    neuen Slot
-6.									[System] UC(PaketSlot zuweisen)
-		     ]]></ATT>
+6.									[System] UC(PaketSlot zuweisen)]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
