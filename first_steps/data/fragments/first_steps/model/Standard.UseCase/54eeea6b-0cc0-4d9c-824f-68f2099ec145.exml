@@ -32,7 +32,9 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="5ed356cf-7e97-4c7f-bacb-696c9294650d"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Purpose: 
+            <ATT name="Content"><![CDATA[Purpose: 		Warnung an Lagerist senden
+
+Actor:		Lagerist, System
 
 Extends: 
 

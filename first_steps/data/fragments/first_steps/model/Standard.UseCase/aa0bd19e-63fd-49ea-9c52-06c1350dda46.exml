@@ -52,7 +52,10 @@
             <ATT name="Content"><![CDATA[	Actor								System
 
 1.	[Servicetec.] UC(Auslastung abfragen)
+
+loop
 2.										[System] UC(Auslagern)
+until Lager leer 
 
 
 ####################################################

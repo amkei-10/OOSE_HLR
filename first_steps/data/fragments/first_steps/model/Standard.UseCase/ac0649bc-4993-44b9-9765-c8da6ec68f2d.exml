@@ -66,6 +66,8 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[Purpose: Ausnahmebehandlung wenn Paket-ID nicht vorhanden
 
+Actor:	System
+
 Extends: Auslagern
 
 At Point: nach Schritt 1

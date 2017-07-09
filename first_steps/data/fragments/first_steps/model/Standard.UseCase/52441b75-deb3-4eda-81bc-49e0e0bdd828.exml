@@ -59,21 +59,6 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="6518ca9e-b060-499c-b2e3-1aca051fc6d2"/>
-          <ATTRIBUTES>
-            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Optimale Lagerung" mc="Standard.UseCase" uid="51fc3bd8-9e15-48c3-ac11-a6ab1070e5da"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
       </COMP>
       <COMP relation="OwnedExtension">
         <OBJECT>
@@ -232,6 +217,7 @@
             <ATT name="Content"><![CDATA[	Actor							System
 
 1.	[Lagerist] UC(Auslastung abfragen)
+loop
 2.									[System] gibt Anzahl freier Plätze zurück
 											UC(Paket-ID-anfragen)
 											gibt höchsten belegten Slot zurück
@@ -239,24 +225,8 @@
 3.	[Lager] transportiert Paket in
 		    neuen Slot
 4.									[System] UC(PaketSlot zuweisen)
-
-
-
-
-
-##################### ALT ############################
-
-	Actor							System
-
-1.	[Lagerist] UC(Auslastung abfragen)
-2.									[System] gibt Anzahl freier Plätze zurück
-3.	[Lagerist] Bestätigung
-4.									[System] UC(Paket-ID-anfragen)
-											gibt höchsten belegten Slot zurück
-											gibt niedrigsten freien Slot zurück
-5.	[Lager] transportiert Paket in
-		    neuen Slot
-6.									[System] UC(PaketSlot zuweisen)]]></ATT>
+until Optimierung abgeschlossen
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

@@ -50,11 +50,13 @@
           <ID name="" mc="Infrastructure.Note" uid="fa2983d9-5aba-4e9d-92c6-e3d6757e61c8"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[UseCase: 	Lager voll
-Purpose: 		Ausnahmebehandlung wenn kein Lagerplatz verfügbar
+Purpose: 	Ausnahmebehandlung wenn kein Lagerplatz verfügbar
 
-Extends: 		Einlagern
+Actor:		System
 
-At Point: 		nach Schritt 2 UC(Einlagern)			
+Extends: 	Einlagern
+
+At Point: 	nach Schritt 2 UC(Einlagern)			
 
 Entry Cond: 	Schritt 2 hat Anzahl freier Plätze=0 geliefert
 

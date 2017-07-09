@@ -158,9 +158,9 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="625362e0-e1d1-44b4-9f6d-4e8defea9797"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[UseCase:	Wartung: Lager leeren
+            <ATT name="Content"><![CDATA[UseCase:	Wartung: Daten bereinigen
 
-Purpose:		
+Purpose:		Zuordnung zwischen PaketID und Lagerplatz validieren
 
 EntryCond:	-
 

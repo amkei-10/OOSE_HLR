@@ -161,18 +161,7 @@
 										Zuordnung Paket-Slot erzeugen
 3.	[Lager] transportiert Paket zu Slot
 4.										Anzahl freier Plätze dekrementieren
-
-
-####################### ALT ########################
-
-	Actor								System
-
-1.	[Lagerist] UC(Auslastung abfragen)
-2.										gibt Anzahl freier Plätze zurück
-3.	[Lagerist] UC(Paket Slot zuweisen)
-4.										Zuordnung Paket-Slot erzeugen
-5.	[Lager] transportiert Paket zu Slot
-6.										Anzahl freier Plätze dekrementieren]]></ATT>
+]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

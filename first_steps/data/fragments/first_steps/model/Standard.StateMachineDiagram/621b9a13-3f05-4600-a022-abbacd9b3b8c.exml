@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine State Machine diagram" version="4">
+  <OBJECT>
+    <ID name="State Machine State Machine diagram" mc="Standard.StateMachineDiagram" uid="621b9a13-3f05-4600-a022-abbacd9b3b8c"/>
+    <PID name="State Machine" mc="Standard.StateMachine" uid="86f1cdc6-d37b-41a8-b632-a71239b275a8"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">15</ATT>
+      <ATT name="UiData"><![CDATA[eJztU1FPwjAQ/ivN3ikD1GgCGGWGGKcYUBOfzG09sNq1pC3K/r0tYyoYFjRGffCp7fW+u+/uvmsfzjNBnlAbrmQnaNAwIIfd9iB5wNQSzpwpIDafYidQekIzxVBwRRmHiYaMIuNWaWosWKQoMENpTfEsXfrZyD+j4hmQDB6UvnvNGAbd9qVWU9Q2JxIyl0hArmY2Agvu7wbEDJcM5EyIoN5t10vAB+jI5gKDFf7NKv7G+xuaKo20wG7BrwcmBYasTHYyt0Mcb5nlwoVYIgnObZScOo6Lq78wHMNM2LUi60U5VYVrFL7njsdaz869iTx5i28PSAaa0cVIziG957KcDNlrNpIDaLRqrXG4W9vZC8MahM1mDZIEUnaQtJL9tLr7Aow9k+pZxpCgWCMysprLiTPWF9bKYpTAU9lT2VQZbt0Yvh6qd88F0+gjxNz4Fi6PjYiYy0ezvfvxJNLw7OjEkKNelV6rcnXKbWEF3lDhI7h9WQn4M/vyOdSfEBtnG1QR9Wl8dHsyvDs+6p31h4Pri+h7hLLFGr4f3ZuI3kli518SvymJq8Hld2th49cLYZmQXA==]]></ATT>
+      <ATT name="Name"><![CDATA[State Machine State Machine diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5b1760ff-2124-4156-be68-86a581199897"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -19,6 +19,10 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[UseCase:	Paket-ID anfragen
 
+Purpose:		Information zu einer PaketID anfragen
+
+Actor:		Lagerist
+
 Entry Cond: 	-
 
 Overview: 	Zu einer gültigen Paket-ID wird der zugehörige Slot (x,y) zurück geliefert.

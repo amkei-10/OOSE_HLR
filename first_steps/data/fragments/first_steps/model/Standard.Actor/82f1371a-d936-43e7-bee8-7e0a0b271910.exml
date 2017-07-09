@@ -95,8 +95,8 @@
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="98f6ac02-38a6-4d43-b64e-2cf7f039b9b1"/>
           <ATTRIBUTES>
-            <ATT name="Content"><![CDATA[Leert im Wartungsfall das Lager.
-Stößt Datenbereinigung an.]]></ATT>
+            <ATT name="Content"><![CDATA[<p>Leert im Wartungsfall das Lager. St&ouml;&szlig;t Datenbereinigung an.</p>
+]]></ATT>
             <ATT name="MimeType"></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

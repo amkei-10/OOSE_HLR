@@ -15,14 +15,18 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="Activity" mc="Standard.Activity" uid="fabed0a8-96bf-4444-81c0-611a3c2f5aa0"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="86f1cdc6-d37b-41a8-b632-a71239b275a8"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="7aa42fb8-12d3-4315-b4d4-e16b50c45659"/>
+        <COMPID name="Activity1" mc="Standard.Activity" uid="9bf92ec5-5ade-404c-ab25-2ef1f0546b6a"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Lager" mc="Standard.Actor" uid="a4796cee-e2c9-4185-b5d8-c10824083cc3"/>
         <COMPID name="Actors" mc="Standard.Package" uid="1dba2905-ff9d-4a60-95b0-37b04c64b55e"/>
         <COMPID name="Controling" mc="Standard.Package" uid="f75bf9a4-d725-4c68-b7a8-db9510b45854"/>
+        <COMPID name="Datenhaltung" mc="Standard.Class" uid="ff21c20c-98b9-4c1c-a971-7f7fb3a283bc"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="second_steps Use Case diagram" mc="Standard.UseCaseDiagram" uid="535228a2-8286-4e1e-8911-9ffea8a99296"/>
+        <COMPID name="Use Case diagram" mc="Standard.UseCaseDiagram" uid="535228a2-8286-4e1e-8911-9ffea8a99296"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

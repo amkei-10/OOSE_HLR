@@ -19,7 +19,9 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[UseCase:	Paket Slot zuweisen
 
-Purpose:		
+Actor:		Lagerist
+
+Purpose:		Zuordnung zwischen PaketID und Lagerplatz erzeugen
 
 EntryCond:	-
 

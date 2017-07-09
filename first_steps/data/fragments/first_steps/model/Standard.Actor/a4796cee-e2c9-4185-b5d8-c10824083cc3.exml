@@ -27,9 +27,9 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[Physikalischer Aufbau des Lagerungssystems, bestehend aus PaketID-Scanner, Sensoren, Aktoren, Schlitten, Förderbändern, Turm usw. zum Ein- und Auslagern von Paketen in Lagerslots. 
 
-Ein Lagerslot wird informationstechnisch als x-y-Koordinate repräsentiert und verfügt über zwei Zustände (belegt/frei). 
+Ein Lagerslot wird informationstechnisch als x-y-Koordinate definiert.
 
-Das Lager verarbeitet als Eingabe die Slotkoordinate (x, y) sowie Aktion (Ein- o. Auslagern, Anfahren/Scannen).]]></ATT>
+Das Lager verarbeitet Eingaben Koordinaten (x, y) und Aktionen (transportiere, scanne).]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>

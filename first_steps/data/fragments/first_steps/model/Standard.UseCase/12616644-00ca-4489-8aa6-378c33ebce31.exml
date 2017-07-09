@@ -19,11 +19,13 @@
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[UseCase:	Auslastung abfragen
 
-Purpose:		Ermittlung freier Lagerplätze
+Actor:		Lagerist
+
+Purpose:	Ermittlung freier Lagerplätze
 
 EntryCond:	-
 
-Overview: 	Zählt Anzahl freier Paket-ID und gibt diese zurück.
+Overview: 	Ermittelt Anzahl freier Slots und gibt diese zurück.
 
 ExitCond:		-
 
