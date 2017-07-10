@@ -56,10 +56,10 @@ Interaktionsschicht<y:LabelModel>
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
             <y:AttributeLabel/>
-            <y:MethodLabel>- sendMessage(msg: String, tp: NachrichtenTyp)
-- scan([x, y]) :Id
-- transport([xSrc, ySrc], [xDst, yDst])
-- transport([xDst, yDst])
+            <y:MethodLabel># sendMessage(msg: String, tp: NachrichtenTyp)
+# scan([x, y]) :Id
+# transport([xSrc, ySrc], [xDst, yDst])
+# transport([xDst, yDst])
 + storePackage()
 + retrievePackage(Id)
 + optimize()</y:MethodLabel>
@@ -96,7 +96,7 @@ InteraktionsschichtErweitert<y:LabelModel>
           <y:Geometry height="30.0" width="203.6403375527426" x="459.6798312236287" y="19.704210069444457"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="194.447265625" x="4.596535963871247" y="6.015625">Klassendiagramm: überarbeitet<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="194.447265625" x="4.596535963871304" y="6.015625">Klassendiagramm: überarbeitet<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
