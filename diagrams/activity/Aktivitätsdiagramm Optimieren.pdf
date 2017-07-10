@@ -6,10 +6,10 @@
       /Author ()
       /Subject ()
       /Keywords ()
-      /Creator (yExport 1.5)
-      /Producer (org.freehep.graphicsio.pdf.YPDFGraphics2D 1.5)
-      /CreationDate (D:20170709173558+02'00')
-      /ModDate (D:20170709173558+02'00')
+      /Creator (yExport 1.4.0.1)
+      /Producer (org.freehep.graphicsio.pdf.YPDFGraphics2D 1.4.0.1)
+      /CreationDate (D:20170710150110+02'00')
+      /ModDate (D:20170710150110+02'00')
       /Trapped /False
    >>
 endobj
@@ -1419,16 +1419,16 @@ xref
 0 12
 0000000000 65535 f 
 0000000015 00000 n 
-0000000315 00000 n 
-0000108586 00000 n 
-0000000445 00000 n 
-0000000521 00000 n 
-0000000609 00000 n 
-0000108561 00000 n 
-0000109040 00000 n 
-0000108756 00000 n 
-0000108795 00000 n 
-0000108897 00000 n 
+0000000323 00000 n 
+0000108594 00000 n 
+0000000453 00000 n 
+0000000529 00000 n 
+0000000617 00000 n 
+0000108569 00000 n 
+0000109048 00000 n 
+0000108764 00000 n 
+0000108803 00000 n 
+0000108905 00000 n 
 trailer
 << 
    /Size 12
@@ -1436,5 +1436,5 @@ trailer
    /Info 1 0 R
 >>
 startxref
-109113
+109121
 %%EOF
